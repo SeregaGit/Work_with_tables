@@ -1,0 +1,36 @@
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "Myriad Pro", sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: .2s;
+}
+a:active{
+    color: red;
+}
+
+
+th, td{
+    text-align: center;
+    padding: 4px;
+    border: 2px solid black;
+
+}
+
+th{
+    background: linear-gradient(90deg, darkblue, white, black);
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+td{
+    background: linear-gradient(90deg, darkblue, white, black);
+    transition: 3s;
+}
+td:hover{
+    transition: 3s;
+    background: linear-gradient(-90deg, darkblue, white, black);
+
+}
